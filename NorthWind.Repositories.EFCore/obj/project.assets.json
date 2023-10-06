@@ -1717,6 +1717,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "NorthWind.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NorthWind.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Entities.dll": {}
+        }
       }
     }
   },
@@ -5929,11 +5939,17 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "NorthWind.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Entities/NorthWind.Entities.csproj",
+      "msbuildProject": "../NorthWind.Entities/NorthWind.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
+      "NorthWind.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5967,7 +5983,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\projects\\NorthWind\\NorthWind.Entities\\NorthWind.Entities.csproj": {
+              "projectPath": "C:\\projects\\NorthWind\\NorthWind.Entities\\NorthWind.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
