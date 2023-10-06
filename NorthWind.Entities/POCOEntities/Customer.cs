@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Entities.POCOEntities
 {
-    internal class Customer
+    public class Customer
     {
         public string Id { get; set; }
         public string Name { get; set; }
