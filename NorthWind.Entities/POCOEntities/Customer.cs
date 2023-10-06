@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace NorthWind.Entities.POCOEntities
 {
-    internal class Product
+    internal class Customer
     {
-        public int ID { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
+
     }
 }
