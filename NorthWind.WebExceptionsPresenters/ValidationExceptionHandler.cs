@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NorthWind.WebExceptionsPresenters
 {
-    internal class ValidationExceptionHandler : ExceptionHandlerBase, IExceptionHandler
+    public class ValidationExceptionHandler : ExceptionHandlerBase, IExceptionHandler
     {
         public Task Handle(ExceptionContext context)
         {
