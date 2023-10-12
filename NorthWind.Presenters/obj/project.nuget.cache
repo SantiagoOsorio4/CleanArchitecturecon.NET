@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "buCNuRoXhRu3L+DF5oyyM1vWt2sIcDJUIrNbMkGSKff7AjiJfef1vAARPYxnbCNaJnY8i2adL1gfzDrQKg7/cg==",
+  "success": true,
+  "projectFilePath": "C:\\projects\\NorthWind\\NorthWind.Presenters\\NorthWind.Presenters.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Santiago\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\Santiago\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
