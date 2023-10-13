@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using NorthWind.Presenters;
+using NorthWind.UseCases.CreateOrder;
 using NorthWind.UseCasesDTOs.CreateOrder;
 
 namespace NorthWind.Controllers
@@ -17,7 +18,9 @@ namespace NorthWind.Controllers
         public async Task<string> CreateOrder(
             CreateOrderParams orderparams)
         {
-            CreateOrderPresenter
+            CreateOrderPresenter Presenter = new CreateOrderPresenter();
+            await Mediator.Send(new CreateOrderInputPort(orderparams,Presenter));
+            return Presenter.Content;
         }
 
     }

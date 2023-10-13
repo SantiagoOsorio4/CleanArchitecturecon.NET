@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QK3eVSUV7oC9iHYyYfKxyLw/9y/gSDINvEQ8Pzc8Ct8Au7erKpMQbCowvMkw/WfnG69m6DD76ID7wlP4hsGsrA==",
+  "dgSpecHash": "bRg8zDheiMg+E4yDOZzla73lO2jg8IHekwMdzuowiBHtaUfjwOEprNSDhFRzP8fYqxmyWhzONloRK5iwGfRTuA==",
   "success": true,
   "projectFilePath": "C:\\projects\\NorthWind\\NorthWind.WebApi\\NorthWind.WebApi.csproj",
   "expectedPackageFiles": [
