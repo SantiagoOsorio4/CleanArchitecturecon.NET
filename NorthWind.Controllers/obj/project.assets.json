@@ -1267,7 +1267,8 @@
           "FluentValidation": "10.3.3",
           "MediatR": "9.0.0",
           "NorthWind.Entities": "1.0.0",
-          "NorthWind.UseCasesDTOs": "1.0.0"
+          "NorthWind.UseCasesDTOs": "1.0.0",
+          "NorthWind.UseCasesPorts": "1.0.0"
         },
         "compile": {
           "bin/placeholder/NorthWind.UseCases.dll": {}
@@ -1284,6 +1285,19 @@
         },
         "runtime": {
           "bin/placeholder/NorthWind.UseCasesDTOs.dll": {}
+        }
+      },
+      "NorthWind.UseCasesPorts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NorthWind.UseCasesDTOs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.UseCasesPorts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.UseCasesPorts.dll": {}
         }
       }
     }
@@ -4179,6 +4193,11 @@
       "type": "project",
       "path": "../NorthWind.UseCasesDTOs/NorthWind.UseCasesDTOs.csproj",
       "msbuildProject": "../NorthWind.UseCasesDTOs/NorthWind.UseCasesDTOs.csproj"
+    },
+    "NorthWind.UseCasesPorts/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.UseCasesPorts/NorthWind.UseCasesPorts.csproj",
+      "msbuildProject": "../NorthWind.UseCasesPorts/NorthWind.UseCasesPorts.csproj"
     }
   },
   "projectFileDependencyGroups": {

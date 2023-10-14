@@ -1,0 +1,15 @@
+C:\projects\NorthWind\NorthWind.UseCasesPorts\bin\Debug\net6.0\NorthWind.UseCasesPorts.deps.json
+C:\projects\NorthWind\NorthWind.UseCasesPorts\bin\Debug\net6.0\NorthWind.UseCasesPorts.dll
+C:\projects\NorthWind\NorthWind.UseCasesPorts\bin\Debug\net6.0\NorthWind.UseCasesPorts.pdb
+C:\projects\NorthWind\NorthWind.UseCasesPorts\bin\Debug\net6.0\NorthWind.UseCasesDTOs.dll
+C:\projects\NorthWind\NorthWind.UseCasesPorts\bin\Debug\net6.0\NorthWind.UseCasesDTOs.pdb
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\NorthWind.UseCasesPorts.csproj.AssemblyReference.cache
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\NorthWind.UseCasesPorts.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\NorthWind.UseCasesPorts.AssemblyInfoInputs.cache
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\NorthWind.UseCasesPorts.AssemblyInfo.cs
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\NorthWind.UseCasesPorts.csproj.CoreCompileInputs.cache
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\NorthWind.UseCasesPorts.csproj.CopyComplete
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\NorthWind.UseCasesPorts.dll
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\refint\NorthWind.UseCasesPorts.dll
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\NorthWind.UseCasesPorts.pdb
+C:\projects\NorthWind\NorthWind.UseCasesPorts\obj\Debug\net6.0\ref\NorthWind.UseCasesPorts.dll
