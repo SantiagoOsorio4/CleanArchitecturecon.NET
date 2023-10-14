@@ -30,7 +30,7 @@ namespace NorthWind.WebApi
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers(Filters.Register);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NorthWind.WebApi", Version = "v1" });
