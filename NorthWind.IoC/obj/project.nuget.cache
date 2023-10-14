@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6KQU4z6N8CH91Wrx99eC3HiSzDvoAV31MmQkrbP4rcrBdLh/S8XCLiXCUl0xn93+XqnbwbT8/YgFZ+/sP0f1g==",
+  "dgSpecHash": "t1Ee7Tao7PHfoJYYRegBUlrM5BpXRoV5BAZLgysW2K4BboxLzybDvoyexcHCx1D3aBFZRBGc5/Q5RvAQnLrFsg==",
   "success": true,
   "projectFilePath": "C:\\projects\\NorthWind\\NorthWind.IoC\\NorthWind.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Santiago\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
-    "C:\\Users\\Santiago\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

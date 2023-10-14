@@ -4202,7 +4202,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MediatR >= 9.0.0",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "NorthWind.Presenters >= 1.0.0",
       "NorthWind.UseCasesDTOs >= 1.0.0"
@@ -4259,10 +4258,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "MediatR": {
-            "target": "Package",
-            "version": "[9.0.0, )"
-          },
           "Microsoft.AspNetCore.Mvc.Core": {
             "target": "Package",
             "version": "[2.2.5, )"

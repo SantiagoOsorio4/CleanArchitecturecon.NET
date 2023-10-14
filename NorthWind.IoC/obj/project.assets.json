@@ -45,19 +45,6 @@
           }
         }
       },
-      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "MediatR": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1784,6 +1771,19 @@
           "bin/placeholder/NorthWind.Entities.dll": {}
         }
       },
+      "NorthWind.Presenters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NorthWind.UseCases": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Presenters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Presenters.dll": {}
+        }
+      },
       "NorthWind.Repositories.EFCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1891,19 +1891,6 @@
         "lib/netstandard2.1/MediatR.xml",
         "mediatr.9.0.0.nupkg.sha512",
         "mediatr.nuspec"
-      ]
-    },
-    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
-      "sha512": "msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
-      "type": "package",
-      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "gradient_128x128.png",
-        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
-        "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
-        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.CSharp/4.5.0": {
@@ -6120,6 +6107,11 @@
       "path": "../NorthWind.Entities/NorthWind.Entities.csproj",
       "msbuildProject": "../NorthWind.Entities/NorthWind.Entities.csproj"
     },
+    "NorthWind.Presenters/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Presenters/NorthWind.Presenters.csproj",
+      "msbuildProject": "../NorthWind.Presenters/NorthWind.Presenters.csproj"
+    },
     "NorthWind.Repositories.EFCore/1.0.0": {
       "type": "project",
       "path": "../NorthWind.Repositories.EFCore/NorthWind.Repositories.EFCore.csproj",
@@ -6144,9 +6136,9 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "FluentValidation.DependencyInjectionExtensions >= 10.3.3",
-      "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 5.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.2",
+      "NorthWind.Presenters >= 1.0.0",
       "NorthWind.Repositories.EFCore >= 1.0.0",
       "NorthWind.UseCases >= 1.0.0"
     ]
@@ -6183,6 +6175,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\projects\\NorthWind\\NorthWind.Presenters\\NorthWind.Presenters.csproj": {
+              "projectPath": "C:\\projects\\NorthWind\\NorthWind.Presenters\\NorthWind.Presenters.csproj"
+            },
             "C:\\projects\\NorthWind\\NorthWind.Repositories.EFCore\\NorthWind.Repositories.EFCore.csproj": {
               "projectPath": "C:\\projects\\NorthWind\\NorthWind.Repositories.EFCore\\NorthWind.Repositories.EFCore.csproj"
             },
@@ -6205,10 +6200,6 @@
           "FluentValidation.DependencyInjectionExtensions": {
             "target": "Package",
             "version": "[10.3.3, )"
-          },
-          "MediatR.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[9.0.0, )"
           },
           "Microsoft.Extensions.Configuration.Abstractions": {
             "target": "Package",
